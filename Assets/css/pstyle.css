@@ -1,0 +1,371 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'montserratregular';
+    box-sizing: border-box;
+}
+
+.pre {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/Assets/img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.navbar .navbar-nav .nav-link {
+    height: 100%;
+    border-bottom: 2px solid transparent;
+  }  
+
+
+.navbar .navbar-nav .nav-link:hover {
+    
+    border-bottom: 2px solid  rgb(55, 141, 223);
+  }  
+
+  .content {
+    position:absolute;
+    top: 48%;
+    left: 8%;
+    transform: translateY(-40%);
+
+  }
+
+.content h1{
+    color: white;
+    margin: 40px 0px 50px;
+    font-family: 'amsterdamtwo_ttf';
+    font-size: 45pt;
+  }
+
+  .content h1 span{
+    color:  rgb(55, 141, 223);
+    margin: 40px 0px 50px;
+    font-family: 'amsterdamtwo_ttf';
+    font-size: 45pt;
+  }
+  .content h3{
+    color: white;
+    padding-top: 10px;
+    font-family: 'montserratbold';
+    font-size: 34;
+  }
+
+  .content h4{
+    color: white;
+  }
+
+  .about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(14, 14, 14);
+
+  }
+
+  .about .mainimg img{
+    height: auto;
+    width: 430px;
+
+  }
+
+  .about-text {
+    width: 550px;
+  }
+
+  .maincon{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .about-text h2{
+    color: white;
+    font-family: 'amsterdamtwo_ttf';
+    padding-bottom: 20px;
+    font-size: 40pt;
+  }
+
+  .about-text h2 span{
+    color:  rgb(55, 141, 223);
+    font-family: 'amsterdamtwo_ttf';
+    font-size: 40pt;
+    padding-left: 5px;
+  }
+
+  .about-text h5{
+    color:  rgb(55, 141, 223);
+    font-family: 'montserratbold';
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20pt;
+  }
+
+  .about-text p{
+    color: white;
+    font-size: 12pt;
+  }
+
+  .about-text button{
+    background-color: rgb(55, 141, 223);
+    color: white;
+    font-size: 12pt;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-family: 'montserratregular';
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+  }
+
+  .about-text button:hover {
+
+    background-color: transparent;
+    border: 2px solid rgb(55, 141, 223);
+    cursor: pointer;
+  }
+
+  .services {
+    background-color: black;
+  }
+
+  .services .section-header h2 {
+
+    color:white;
+    font-family:'amsterdamtwo_ttf';
+    padding-top: 100px;
+    font-size: 40pt !important;
+  }
+
+  .services .section-header h2 span {
+
+    color: rgb(55, 141, 223);
+    font-family:'amsterdamtwo_ttf';
+    padding-top: 100px;
+    font-size: 40pt !important;
+  }
+
+  .services .section-header p {
+
+    color: white;
+    padding-top: 50px;
+    font-size: 15pt !important;
+  }
+
+  .services .card-title {
+    font-family: 'montserratbold';
+  }
+
+  .services .card {
+    background-color:rgb(14, 14, 14) ;
+    height: 300px;
+  }
+
+  .services .card-body p{
+    
+    font-size: 10pt !important;
+  }
+
+  .services .card-body i{
+    color: rgb(55, 141, 223);
+    font-size: 50pt;
+  }
+
+  .services .card-body button{
+    background-color: rgb(55, 141, 223);
+    color: white;
+    border-radius: 30px;
+    font-size: 12pt;
+    font-family: 'montserratregular';
+  }
+
+  .services .card-body button:hover {
+
+    background-color: transparent;
+    border: 2px solid rgb(55, 141, 223);
+    cursor: pointer;
+  }
+
+  .skills {
+    background-color: rgb(14, 14, 14);
+  }
+
+  .skills .section-header h2 {
+
+    color:white;
+    font-family:'amsterdamtwo_ttf';
+    padding-top: 100px;
+    font-size: 40pt !important;
+  }
+
+  .skills .section-header h2 span {
+
+    color: rgb(55, 141, 223);
+    font-family:'amsterdamtwo_ttf';
+    padding-top: 100px;
+    font-size: 40pt !important;
+  }
+
+  .skills .section-header p {
+
+    color: white;
+    padding-top: 50px;
+    font-size: 15pt !important;
+  }
+
+  .skills .card {
+    text-align: center;
+    background-color:black ;
+    color: rgb(55, 141, 223) !important;
+    height: 250px;
+    font-size: 90pt;
+   
+
+  }
+
+  .skills .card:hover{
+    background-color:rgb(55, 141, 223);
+    color: white !important;
+    
+
+  }
+
+  .skills .card i {
+    display:block;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+
+  }
+
+  .galery {
+
+    background-color: black;
+
+  }
+
+  .carousel {
+    width: 700px;
+    height: 600px;
+    
+  }
+
+  .carousel-item{
+    height: 600px;
+    width: 700px;
+    
+    
+  }
+
+  .carousel .carousel-item img{
+    height: 600px;
+    width: 700px;
+  }
+
+  .galery .section-header h2 {
+
+    color:rgb(55, 141, 223);
+    font-family:'amsterdamtwo_ttf';
+    padding-top: 100px;
+    font-size: 50pt !important;
+  }
+
+
+.contact {
+    width: 100%;
+    height: 340px;
+    background-color: rgb(14, 14, 14);
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact p{
+    color: white;
+    font-family: 'montserratregular';
+    font-size: 20pt;
+}
+
+.contact span{
+    color: rgb(55, 141, 223);
+    font-family: 'amsterdamtwo_ttf';
+    font-size: 40pt;
+    padding-bottom: 10px;
+}
+
+.contact button{
+    background-color: rgb(55, 141, 223);
+    color: white;
+    font-size: 12pt;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-family: 'montserratregular';
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+  }
+
+  .contact button:hover {
+
+    background-color: transparent;
+    border: 2px solid rgb(55, 141, 223);
+    cursor: pointer;
+  }
+
+  /* Responsive Behavior*/
+
+
+  @media only screen and (max-width: 767px){
+
+    .navbar {
+        width: 100%;
+        background-color: rgb(14, 14, 14) ;
+        display:flex;
+    
+    }
+
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .services .card {
+        margin-top: 15px;
+    }
+
+    .skills .card {
+    
+        margin-top: 15px;
+    }
+
+    .about .about-text {
+        padding-left: 20px;
+    }
+
+    .about .about-text h2 {
+        font-size: 25pt;
+    }
+
+    .about .about-text span {
+        font-size: 25pt;
+    }
+
+    .carousel {
+        width: auto;
+        height: auto;
+    }
+
+    .carousel-item {
+        width:100%;
+    }
+
+  }
+
+  html, body{
+    scroll-behavior: smooth;
+}
